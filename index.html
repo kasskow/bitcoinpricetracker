@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://unpkg.com/tailwindcss@2.2.19/dist/tailwind.min.css">
+  <title>Simple Bitcoin Tracker using API</title>
+  <style>
+    @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+
+    html {
+      font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    }
+  </style>
+</head>
+<body>
+  <div class="bg-gray-900 min-h-screen flex flex-col justify-center items-center">
+    <div class="bg-gray-800 p-10 rounded-lg shadow-lg">
+      <h1 class="text-4xl text-white font-bold text-center">Bitcoin Price Tracker</h1>
+      <div class="flex justify-center items-center">
+        <h2 class="text-2xl text-white font-bold text-center">Current Price: {{price}}<span class="font-bold bg-gradient-to-r from-purple-500 to-blue-500 text-transparent bg-clip-text">USD</span></h2>
+      </div>
+    </div>
+</body>
+</html>
